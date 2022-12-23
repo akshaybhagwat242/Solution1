@@ -1,4 +1,8 @@
 ﻿<?php
+	ini_set(' display. .errors', 1);
+	ini_set('display].startup_errors',1);
+	error_reporting( E_ALL);
+
 	$firstName = $_POST['firstName'];
 	$lastName = $_POST['lastName'];
 	$gender = $_POST['gender'];
